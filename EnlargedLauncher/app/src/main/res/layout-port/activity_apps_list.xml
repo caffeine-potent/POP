@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+            android:textColor= "#cee8fa"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:id="@+id/clocktext"
+            android:textSize="64dp"
+            android:text="1:00 PM"/>
+
+
+    </LinearLayout>
+    <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/gridView1"
+        android:numColumns="2"
+        android:gravity="center"
+        android:columnWidth="150dp"
+
+        android:stretchMode="spacingWidthUniform"
+        android:layout_width="fill_parent"
+        android:background="#ffffff"
+        android:layout_centerInParent="true"
+        android:layout_height="fill_parent" >
+    </GridView>
+
+</LinearLayout>
